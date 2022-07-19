@@ -19,7 +19,7 @@ function newPlayableCharacter(x, y) {
             element.src = `assets/green-character/south.gif`
         }
     }
-
+    
     move(element).withArrowKeys(x, y, handleDirectionChange)
 
     return {
